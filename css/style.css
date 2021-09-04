@@ -1,7 +1,35 @@
 body {
-  background-color: beige;
+  /* background-color: beige;
+  background-image: url(/img/0.jpg); */
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-color: #cccccc;
+  background-size: cover;
 }
 
 .hidden {
   display: none;
+}
+
+#contents {
+  margin: 10%;
+  text-align: center;
+}
+
+#clock {
+  font-family:'Courier New', Courier, monospace;
+  font-size:xxx-large;
+  color: white;
+}
+
+div#weather{
+  margin-top: 20px;
+}
+
+#weather span {
+  color: white;
+  margin-top: 20px;
+  margin-inline: 10px;
+  font-size: larger;
+  font-family: 'Times New Roman', Times, serif;
 }
