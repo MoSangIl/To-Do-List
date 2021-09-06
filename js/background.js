@@ -6,4 +6,4 @@ const image = images[Math.floor(Math.random() * images.length)];
 
 // document.body.appendChild(imgElement);
 
-document.body.style.backgroundImage = `url(/img/${image})`;
+document.body.style.backgroundImage = `url(../img/${image})`;
